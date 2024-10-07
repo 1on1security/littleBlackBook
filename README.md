@@ -54,12 +54,12 @@ GRUB_CMDLINE_LINUX="ipv6.disable=1"
 `docker image rm [image_name]`<br>
 `docker container list`<br>
 `docker compose up -d`<br>
-`docker run -d [image_name]'<br>
+`docker run -d [image_name]`<br>
 `docker exec -it [container] bash`
 
 ## Packer quickies
 
-'packer init .`<br>
+`packer init .`<br>
 `packer fmt .`<br>
 `packer build [file].pkr.hcl`<br>
 
