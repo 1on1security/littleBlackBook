@@ -47,6 +47,23 @@ GRUB_CMDLINE_LINUX="ipv6.disable=1"
 `sudo systemctl disable systemd-resolved`<br>
 `sudo systemctl stop systemd-resolved`
 
+## Docker quickies
+
+`docker ps`<br>
+`docker image list`<br>
+`docker image rm [image_name]`<br>
+`docker container list`<br>
+`docker compose up -d`<br>
+`docker run -d [image_name]'<br>
+`docker exec -it [container] bash`
+
+## Packer quickies
+
+'packer init .`<br>
+`packer fmt .`<br>
+`packer build [file].pkr.hcl`<br>
+
+
 ## Ansible Crib Notes
 
 `ansible-inventory -i inventory.yaml --list`<br>
